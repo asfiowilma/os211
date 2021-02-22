@@ -7,3 +7,4 @@ ZCZC W00 20 L01 Reading forum discussions
 ZCZC W00 20 L22 YouTube: watch classic OS run in web video
 ZCZC W00 45 L08 Trying cookie clicker & paint on Windows 98
 ZCZC W00 30 L01 Writing forum post about OS in browsers
+ZCZC W00 80 L23 Discord: discussion about browsers
