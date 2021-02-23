@@ -10,3 +10,4 @@ ZCZC W00 30 L01 Writing forum post about OS in browsers
 ZCZC W00 80 L23 Discord: discussion about browsers
 ZCZC W00 100 L02 Attended zoom meeting
 ZCZC W00 30 L06 Read course overview
+ZCZC W00 10 L23 Discord: discussion
