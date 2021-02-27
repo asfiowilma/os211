@@ -13,4 +13,4 @@ ZCZC W00 30 L06 Read course overview
 ZCZC W00 10 L23 Discord: discussion
 ZCZC W00 20 L01 Responding to pop quizzes
 ZCZC W00 20 L03 GitHub related
-ZCZC W00 120 L06 Reading References/Books/Documents
+ZCZC W00 30 L06 Reading References/Books/Documents
