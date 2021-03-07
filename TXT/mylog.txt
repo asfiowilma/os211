@@ -19,4 +19,5 @@ ZCZC W01 60 L11 Assignment #1
 ZCZC W01 180 L11 Assignment #1 - Top 10 Links
 ZCZC W01 20 L05 GSGS for the Top 10 links
 ZCZC W01 200 L99 Play Ludo with family
+ZCZC W01 30 L99 Play digimon rumble arena & CTR with emulator
 
