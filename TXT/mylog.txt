@@ -16,4 +16,7 @@ ZCZC W00 20 L03 GitHub related
 ZCZC W00 30 L06 Reading References/Books/Documents
 ZCZC W01 120 L21 VirtualBox: install 
 ZCZC W01 60 L11 Assignment #1
+ZCZC W01 180 L11 Assignment #1 - Top 10 Links
+ZCZC W01 20 L05 GSGS for the Top 10 links
+ZCZC W01 200 L99 Play Ludo with family
 
