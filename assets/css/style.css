@@ -87,16 +87,17 @@ img {
     padding: 15px;
 }
 
-.sidebar-button:hover > div {
+.sidebar-button:hover > div {    
     color: #463534;
     background: rgb(152, 129, 113, 0.75);
 }
 
 .dropdown-content {
-    display: flex;
+    display: none;
     height:  0;
     flex-direction: column;
-
+    margin-bottom: 5px;
+    border-radius: 10px;
     overflow: hidden;
     padding: 0 !important;
     transition: 0.2s;
@@ -115,5 +116,5 @@ img {
 }
 
 .dropdown:hover .dropdown-content {
-    height: 80px;
+    display: flex;
 }
