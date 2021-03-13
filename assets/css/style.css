@@ -25,6 +25,8 @@ ul {
 ol {
     list-style: none;
     counter-reset: litha-counter;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
   }
@@ -32,6 +34,7 @@ ol {
 ol li {
     counter-increment: litha-counter;
     display: flex;
+    width: 100%;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
