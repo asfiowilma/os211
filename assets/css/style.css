@@ -1,0 +1,131 @@
+html {
+    font-family: 'Courier New', monospace;
+    color: rgba(216, 219, 226, 1);
+
+    height: 100vh;
+    background: rgb(24, 16, 58);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(40, 48, 124, 0.4);
+
+    border-radius: 5px;
+}
+
+a {
+    font-weight: 700;
+    color: rgba(255, 127, 87, 0.8);
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: rgba(33, 250, 144, 1);
+}
+
+img {
+    width: 100%;
+}
+
+#title {
+    color: rgba(255, 200, 87, 1);
+}
+
+#author {
+    color: rgba(255, 127, 87, 0.8);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.kenta-sidebar {
+    background: rgba(40, 48, 124, 1);
+    width: 300px;
+    height: 100%;
+}
+
+.kenta-content {
+    padding: 20px;
+    padding-top: 40px;
+    width: 100%;
+
+    overflow-y: scroll;
+}
+
+.kenta-sidebar-row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+.kenta-sidebar-button > .kenta-sidebar-div {
+    transition: 0.2s;
+
+    font-size: 18px;
+
+    height: 20px;
+    background: rgba(42, 30, 92, 0.6);
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.kenta-sidebar-button:hover > div {
+    color: rgba(40, 48, 124, 1);
+    background: rgba(255, 127, 87, 1);
+
+}
+
+.kenta-dropdown-content {
+    display: flex;
+    height:  0;
+    flex-direction: column;
+
+    overflow: hidden;
+    padding: 0 !important;
+    margin-bottom: 5px;
+
+    transition: 0.2s;
+}
+
+.kenta-dropdown-link {
+    display: block;
+    height: 20px;
+    padding: 10px;
+    background-color: rgba(255, 127, 87, 1);
+    color: rgba(42, 30, 92);
+}
+
+.kenta-dropdown-link:hover {
+    background-color: rgba(219, 50, 77, 1);
+}
+
+.kenta-dropdown:hover .kenta-dropdown-content {
+    height: 80px;
+}
+
+.kenta-secret {
+    opacity: 0.05; 
+}
+
+.kenta-secret:hover {
+    cursor:default;
+}
