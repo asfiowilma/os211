@@ -144,6 +144,6 @@ img {
 }
 
 .dropdown:hover .dropdown-content {
-    height: 20px;
+    height: 50px;
     margin-bottom: 5px;
 }
