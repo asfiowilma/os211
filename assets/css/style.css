@@ -22,6 +22,10 @@ ul {
     margin: 0;
 }
 
+ul li:hover {
+    background-color: #463534;
+}
+
 ol {
     list-style: none;
     counter-reset: litha-counter;
