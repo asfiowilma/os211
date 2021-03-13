@@ -25,8 +25,6 @@ ul {
 ol {
     list-style: none;
     counter-reset: litha-counter;
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
   }
@@ -34,7 +32,6 @@ ol {
 ol li {
     counter-increment: litha-counter;
     display: flex;
-    width: 50%;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
@@ -121,9 +118,10 @@ img {
 }
 
 .dropdown-content {
-    display: none;
+    display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    height: 0;
+    margin-bottom: 0;
     border-radius: 10px;
     overflow: hidden;
     padding: 0 !important;
@@ -143,5 +141,6 @@ img {
 }
 
 .dropdown:hover .dropdown-content {
-    display: flex;
+    height: 20px;
+    margin-bottom: 5px;
 }
