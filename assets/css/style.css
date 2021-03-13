@@ -1,9 +1,9 @@
 html {
-    font-family: 'Courier New', monospace;
-    color: rgba(216, 219, 226, 1);
+    font-family: 'Century Gothic', monospace;
+    color: #f1ffe0;
 
     height: 100vh;
-    background: rgb(24, 16, 58);
+    background: #1e1721;
 }
 
 body {
@@ -23,20 +23,20 @@ ul {
 li {
     margin-bottom: 15px;
     padding: 10px;
-    background: rgba(40, 48, 124, 0.4);
+    background: #463534;
 
     border-radius: 5px;
 }
 
 a {
     font-weight: 700;
-    color: rgba(255, 127, 87, 0.8);
+    color: #988171;
     text-decoration: none;
 }
 
 h1, h2 {
     font-weight: 600;
-    color: rgba(33, 250, 144, 1);
+    color: #f1ffe0;
 }
 
 img {
@@ -44,11 +44,11 @@ img {
 }
 
 #title {
-    color: rgba(255, 200, 87, 1);
+    color: #988171;
 }
 
 #author {
-    color: rgba(255, 127, 87, 0.8);
+    color: #f1ffe0;
 }
 
 ::-webkit-scrollbar {
@@ -56,13 +56,13 @@ img {
     height: 0;
 }
 
-.kenta-sidebar {
-    background: rgba(40, 48, 124, 1);
+.sidebar {
+    background: rgb(70, 53, 52, 0.5);
     width: 300px;
     height: 100%;
 }
 
-.kenta-content {
+.content {
     padding: 20px;
     padding-top: 40px;
     width: 100%;
@@ -70,31 +70,31 @@ img {
     overflow-y: scroll;
 }
 
-.kenta-sidebar-row {
+.sidebar-row {
     display: flex;
     flex-direction: column;
     margin: 10px;
     margin-top: 60px;
 }
 
-.kenta-sidebar-button > .kenta-sidebar-div {
+.sidebar-button > .sidebar-div {
     transition: 0.2s;
 
     font-size: 18px;
 
     height: 20px;
-    background: rgba(42, 30, 92, 0.6);
+    background: #988171;
     margin-bottom: 5px;
     padding: 15px;
 }
 
-.kenta-sidebar-button:hover > div {
+.sidebar-button:hover > div {
     color: rgba(40, 48, 124, 1);
-    background: rgba(255, 127, 87, 1);
+    background: rgb(152, 129, 113, 0.75);
 
 }
 
-.kenta-dropdown-content {
+.dropdown-content {
     display: flex;
     height:  0;
     flex-direction: column;
@@ -106,26 +106,18 @@ img {
     transition: 0.2s;
 }
 
-.kenta-dropdown-link {
+.dropdown-link {
     display: block;
     height: 20px;
     padding: 10px;
-    background-color: rgba(255, 127, 87, 1);
+    background-color: #1e1721;
     color: rgba(42, 30, 92);
 }
 
-.kenta-dropdown-link:hover {
-    background-color: rgba(219, 50, 77, 1);
+.dropdown-link:hover {
+    background-color: #463534;
 }
 
-.kenta-dropdown:hover .kenta-dropdown-content {
+.dropdown:hover .dropdown-content {
     height: 80px;
-}
-
-.kenta-secret {
-    opacity: 0.05; 
-}
-
-.kenta-secret:hover {
-    cursor:default;
 }
