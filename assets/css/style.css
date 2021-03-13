@@ -22,9 +22,8 @@ ul {
 
 li {
     margin-bottom: 15px;
-    padding: 10px;
-    background: #463534;
-
+    padding: 1rem .5rem;
+    background: rgb(70, 53, 52, 0.25);
     border-radius: 5px;
 }
 
@@ -44,6 +43,7 @@ img {
 }
 
 #title {
+    font-family: 'Verdana', monospace;
     color: #988171;
 }
 
@@ -79,19 +79,17 @@ img {
 
 .sidebar-button > .sidebar-div {
     transition: 0.2s;
-
     font-size: 18px;
-
+    border-radius: 10px;
     height: 20px;
-    background: #988171;
+    background: rgb(152, 129, 113, 0.3);
     margin-bottom: 5px;
     padding: 15px;
 }
 
 .sidebar-button:hover > div {
-    color: rgba(40, 48, 124, 1);
+    color: #463534;
     background: rgb(152, 129, 113, 0.75);
-
 }
 
 .dropdown-content {
@@ -101,8 +99,6 @@ img {
 
     overflow: hidden;
     padding: 0 !important;
-    margin-bottom: 5px;
-
     transition: 0.2s;
 }
 
@@ -111,7 +107,7 @@ img {
     height: 20px;
     padding: 10px;
     background-color: #1e1721;
-    color: rgba(42, 30, 92);
+    color: #988171;
 }
 
 .dropdown-link:hover {
