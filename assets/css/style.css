@@ -34,10 +34,11 @@ ol {
 ol li {
     counter-increment: litha-counter;
     display: flex;
+    align-items: center;
     width: 100%;
   }
 
-ol li a {
+ol li p a {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
@@ -46,14 +47,14 @@ ol li::before {
     content: counter(litha-counter, decimal-leading-zero);
     font-weight: bold;
     font-size: 3rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     font-family: 'Abril Fatface', serif;
     line-height: 1;
   }
 
 li {
     margin-bottom: 15px;
-    padding: 1rem .5rem;
+    padding: 1rem;
     background: rgb(70, 53, 52, 0.25);
     border-radius: 5px;
 }
