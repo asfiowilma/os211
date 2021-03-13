@@ -40,7 +40,7 @@ ol li {
   }
 
 ol li::before {
-    content: "0" counter(litha-counter);
+    content: counter(litha-counter, decimal-leading-zero);
     font-weight: bold;
     font-size: 3rem;
     margin-right: 0.5rem;
