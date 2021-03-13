@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
 html {
     font-family: 'Century Gothic', monospace;
     color: #f1ffe0;
@@ -19,6 +21,32 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+ol {
+    list-style: none;
+    counter-reset: litha-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+ol li {
+    counter-increment: litha-counter;
+    display: flex;
+    width: 50%;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+ol li::before {
+    content: "0" counter(litha-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
+  }
 
 li {
     margin-bottom: 15px;
@@ -94,7 +122,6 @@ img {
 
 .dropdown-content {
     display: none;
-    height:  0;
     flex-direction: column;
     margin-bottom: 5px;
     border-radius: 10px;
