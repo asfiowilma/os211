@@ -21,6 +21,10 @@ ZCZC W01 20 L05 GSGS for the Top 10 links
 ZCZC W01 200 L99 Play Ludo with family
 ZCZC W01 30 L99 Play digimon rumble arena & CTR with emulator
 ZCZC W02 30 L21 Run pop quiz one line script
+ZCZC W02 180 L04 Github Pages: setting layouts 
+ZCZC W02 120 L05 GSGS for the Top 10 links
+ZCZC W02 30 L06 Read OSC chapter 16
+ZCZC W02 30 L11 Assignment #1
 ZCZC W02 15 L13 Assignment #3 
 ZCZC W02 5 L14 Assignment #4
 ZCZC W02 15 L15 Assignment #5 
@@ -29,4 +33,3 @@ ZCZC W02 60 L17 Assignment #7
 ZCZC W02 15 L18 Assignment #8 
 ZCZC W02 10 L19 Assignment #9 
 ZCZC W02 10 L20 Assignment #10 
-ZCZC W02 180 L04 Github Pages: setting layouts 
