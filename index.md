@@ -13,5 +13,6 @@ Below is a directory of each week's Top 10 Links assignment. A discovery log con
 - [Week 01](https://asfiowilma.github.io/os211/W01/)
 - [Week 02](https://asfiowilma.github.io/os211/W02/) - Security, Protection, Privacy
 - [Week 03](https://asfiowilma.github.io/os211/W03/) - Filesystem and FUSE
+- [Week 04](https://asfiowilma.github.io/os211/W04/) - Addressing, Shared Lib, & Pointer
 
 Enjoy your stay! Feedbacks are welcomed. 
