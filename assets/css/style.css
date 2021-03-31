@@ -108,6 +108,7 @@ img {
 
 #choco {
 	width: 100%;
+    margin-bottom: -19rem;
 }
 #choco .bar {
 	background: #463534;
@@ -136,7 +137,6 @@ img {
     top: -19rem; 
     right: 0;
     display: flex;
-    margin-bottom: -19rem;
     justify-content: flex-end;
 }
 #choco .packaging {	
