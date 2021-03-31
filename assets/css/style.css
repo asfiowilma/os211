@@ -106,6 +106,91 @@ img {
     overflow-y: scroll;
 }
 
+#choco {
+	width: 100%;
+}
+#choco .bar {
+	background: #463534;
+    width: 100%;
+    height: 18rem;
+    border-radius: 20px; 
+    position: relative;
+    overflow: hidden;
+}
+#choco .chunk-wrapper {
+	width: 100%;
+	margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+#choco .chunk {
+	background: rgb(152, 129, 113, 0.2);
+    width: 7rem;
+    height: 7rem;
+    margin: 0 .5rem 1rem .5rem;
+    border-radius: 10px;
+}
+#choco .packaging-wrapper {
+	width: 100%;
+	position: relative;
+    top: -19rem; 
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+#choco .packaging {	
+	background: darksalmon;
+    height: 20rem;
+    width: 50%;    
+    z-index: 2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -1.5rem 0 rgb(30,23,33,.2);
+}
+#choco .heart-wrapper {
+	flex: 1;
+    display: flex;
+    align-items: center;
+}
+#choco .heart {
+	height: 3rem;
+    width: 3rem;
+    background: indianred;
+    display: inline-block;
+  	position: relative;
+  	top: 0;
+  	transform: rotate(-45deg);
+}
+
+#choco .heart:before,
+#choco .heart:after {
+  content: "";
+  background-color: indianred;
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  width: 3rem;
+}
+
+#choco .heart:before {
+  top: -1.5rem;
+  left: 0;
+}
+
+#choco .heart:after {
+  left: 1.5rem;
+  top: 0;
+}
+#choco .packaging-shadow {
+	align-self: flex-end;
+	background: indianred;
+    height: 2rem;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
 .sidebar-row {
     display: flex;
     flex-direction: column;
@@ -152,6 +237,6 @@ img {
 }
 
 .dropdown:hover .dropdown-content {
-    height: calc(4 * 40px);
+    height: calc(5 * 40px);
     margin-bottom: 5px;
 }
