@@ -136,6 +136,7 @@ img {
     top: -19rem; 
     right: 0;
     display: flex;
+    margin-bottom: -19rem;
     justify-content: flex-end;
 }
 #choco .packaging {	
