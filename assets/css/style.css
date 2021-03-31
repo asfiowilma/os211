@@ -108,7 +108,9 @@ img {
 
 #choco {
 	width: 100%;
+    margin: auto;
     margin-bottom: -19rem;
+    max-width: 1000px;
 }
 #choco .bar {
 	background: #463534;
