@@ -15,5 +15,6 @@ Below is a directory of each week's Top 10 Links assignment. A discovery log con
 - [Week 03](https://asfiowilma.github.io/os211/W03/) - Filesystem and FUSE
 - [Week 04](https://asfiowilma.github.io/os211/W04/) - Addressing, Shared Lib, & Pointer
 - [Week 05](https://asfiowilma.github.io/os211/W05/) - Virtual Memory
+- [Week 06](https://asfiowilma.github.io/os211/W06/) - Concurrency, Processes & Threads
 
 Enjoy your stay! Feedbacks are welcomed. 
