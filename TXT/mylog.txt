@@ -58,4 +58,10 @@ ZCZC W05 20 L15 Assignment #5
 ZCZC W05 10 L16 Assignment #6
 ZCZC W05 10 L17 Assignment #7
 ZCZC W06 85 L05 GSGS for this week's top 10 links
-ZCZC W06 270 L10 Assignment All 
+ZCZC W07 270 L10 Assignment All 
+ZCZC W07 10 L12 Assignment #2
+ZCZC W07 125 L13 Assignment #3
+ZCZC W07 45 L14 Assignment #4
+ZCZC W07 10 L15 Assignment #5
+ZCZC W07 10 L16 Assignment #6
+ZCZC W07 60 L05 GSGS for this week's top 10 links
