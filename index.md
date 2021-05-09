@@ -17,5 +17,6 @@ Below is a directory of each week's Top 10 Links assignment. A discovery log con
 - [Week 05](https://asfiowilma.github.io/os211/W05/) - Virtual Memory
 - [Week 06](https://asfiowilma.github.io/os211/W06/) - Concurrency, Processes & Threads
 - [Week 07](https://asfiowilma.github.io/os211/W07/) - Synchronization & Deadlock
+- [Week 08](https://asfiowilma.github.io/os211/W08/) - Scheduling & LFS
 
 Enjoy your stay! Feedbacks are welcomed. 
